@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FF2D6EC24122449000B15A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D6EB24122449000B15A0 /* AppDelegate.swift */; };
+		2FF2D6EE24122449000B15A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D6ED24122449000B15A0 /* SceneDelegate.swift */; };
+		2FF2D6F024122449000B15A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D6EF24122449000B15A0 /* ViewController.swift */; };
+		2FF2D6F324122449000B15A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2D6F124122449000B15A0 /* Main.storyboard */; };
+		2FF2D6F52412244C000B15A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2D6F42412244C000B15A0 /* Assets.xcassets */; };
+		2FF2D6F82412244C000B15A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2D6F62412244C000B15A0 /* LaunchScreen.storyboard */; };
+		2FF2D7032412244D000B15A0 /* EmotionTextInputDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D7022412244D000B15A0 /* EmotionTextInputDemoTests.swift */; };
+		2FF2D70E2412244D000B15A0 /* EmotionTextInputDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D70D2412244D000B15A0 /* EmotionTextInputDemoUITests.swift */; };
+		2FF2D72724122461000B15A0 /* EmoticonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D71C24122460000B15A0 /* EmoticonView.swift */; };
+		2FF2D72824122461000B15A0 /* EmoticonCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D71D24122460000B15A0 /* EmoticonCollectionView.swift */; };
+		2FF2D72924122461000B15A0 /* StringExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D71E24122460000B15A0 /* StringExtend.swift */; };
+		2FF2D72A24122461000B15A0 /* EmoticonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D71F24122460000B15A0 /* EmoticonCollectionViewCell.swift */; };
+		2FF2D72B24122461000B15A0 /* EmoticonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D72024122460000B15A0 /* EmoticonModel.swift */; };
+		2FF2D72C24122461000B15A0 /* PageControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D72124122460000B15A0 /* PageControlView.swift */; };
+		2FF2D72D24122461000B15A0 /* UIImageExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D72224122460000B15A0 /* UIImageExtend.swift */; };
+		2FF2D72E24122461000B15A0 /* DecoderStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D72324122460000B15A0 /* DecoderStruct.swift */; };
+		2FF2D72F24122461000B15A0 /* EmoticonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D72424122460000B15A0 /* EmoticonProtocol.swift */; };
+		2FF2D73024122461000B15A0 /* RichTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D72524122460000B15A0 /* RichTextView.swift */; };
+		2FF2D73124122461000B15A0 /* UIViewExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D72624122460000B15A0 /* UIViewExtend.swift */; };
+		2FF2D73324122503000B15A0 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2D73224122503000B15A0 /* AppConfig.swift */; };
+		2FF2D73524122523000B15A0 /* Emoticon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2D73424122522000B15A0 /* Emoticon.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FF2D6FF2412244D000B15A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF2D6E024122449000B15A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF2D6E724122449000B15A0;
+			remoteInfo = EmotionTextInputDemo;
+		};
+		2FF2D70A2412244D000B15A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF2D6E024122449000B15A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF2D6E724122449000B15A0;
+			remoteInfo = EmotionTextInputDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FF2D6E824122449000B15A0 /* EmotionTextInputDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionTextInputDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF2D6EB24122449000B15A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FF2D6ED24122449000B15A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2FF2D6EF24122449000B15A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FF2D6F224122449000B15A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FF2D6F42412244C000B15A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FF2D6F72412244C000B15A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FF2D6F92412244C000B15A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF2D6FE2412244D000B15A0 /* EmotionTextInputDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionTextInputDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF2D7022412244D000B15A0 /* EmotionTextInputDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionTextInputDemoTests.swift; sourceTree = "<group>"; };
+		2FF2D7042412244D000B15A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF2D7092412244D000B15A0 /* EmotionTextInputDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionTextInputDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF2D70D2412244D000B15A0 /* EmotionTextInputDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionTextInputDemoUITests.swift; sourceTree = "<group>"; };
+		2FF2D70F2412244D000B15A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF2D71C24122460000B15A0 /* EmoticonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonView.swift; sourceTree = "<group>"; };
+		2FF2D71D24122460000B15A0 /* EmoticonCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonCollectionView.swift; sourceTree = "<group>"; };
+		2FF2D71E24122460000B15A0 /* StringExtend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtend.swift; sourceTree = "<group>"; };
+		2FF2D71F24122460000B15A0 /* EmoticonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonCollectionViewCell.swift; sourceTree = "<group>"; };
+		2FF2D72024122460000B15A0 /* EmoticonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonModel.swift; sourceTree = "<group>"; };
+		2FF2D72124122460000B15A0 /* PageControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControlView.swift; sourceTree = "<group>"; };
+		2FF2D72224122460000B15A0 /* UIImageExtend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtend.swift; sourceTree = "<group>"; };
+		2FF2D72324122460000B15A0 /* DecoderStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecoderStruct.swift; sourceTree = "<group>"; };
+		2FF2D72424122460000B15A0 /* EmoticonProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonProtocol.swift; sourceTree = "<group>"; };
+		2FF2D72524122460000B15A0 /* RichTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichTextView.swift; sourceTree = "<group>"; };
+		2FF2D72624122460000B15A0 /* UIViewExtend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtend.swift; sourceTree = "<group>"; };
+		2FF2D73224122503000B15A0 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		2FF2D73424122522000B15A0 /* Emoticon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticon.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FF2D6E524122449000B15A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF2D6FB2412244D000B15A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF2D7062412244D000B15A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FF2D6DF24122449000B15A0 = {
+			isa = PBXGroup;
+			children = (
+				2FF2D6EA24122449000B15A0 /* EmotionTextInputDemo */,
+				2FF2D7012412244D000B15A0 /* EmotionTextInputDemoTests */,
+				2FF2D70C2412244D000B15A0 /* EmotionTextInputDemoUITests */,
+				2FF2D6E924122449000B15A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FF2D6E924122449000B15A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2D6E824122449000B15A0 /* EmotionTextInputDemo.app */,
+				2FF2D6FE2412244D000B15A0 /* EmotionTextInputDemoTests.xctest */,
+				2FF2D7092412244D000B15A0 /* EmotionTextInputDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FF2D6EA24122449000B15A0 /* EmotionTextInputDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2D6EB24122449000B15A0 /* AppDelegate.swift */,
+				2FF2D6ED24122449000B15A0 /* SceneDelegate.swift */,
+				2FF2D6EF24122449000B15A0 /* ViewController.swift */,
+				2FF2D6F124122449000B15A0 /* Main.storyboard */,
+				2FF2D73424122522000B15A0 /* Emoticon.bundle */,
+				2FF2D6F42412244C000B15A0 /* Assets.xcassets */,
+				2FF2D6F62412244C000B15A0 /* LaunchScreen.storyboard */,
+				2FF2D6F92412244C000B15A0 /* Info.plist */,
+				2FF2D71B24122460000B15A0 /* EmotionTextInput */,
+				2FF2D73224122503000B15A0 /* AppConfig.swift */,
+			);
+			path = EmotionTextInputDemo;
+			sourceTree = "<group>";
+		};
+		2FF2D7012412244D000B15A0 /* EmotionTextInputDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2D7022412244D000B15A0 /* EmotionTextInputDemoTests.swift */,
+				2FF2D7042412244D000B15A0 /* Info.plist */,
+			);
+			path = EmotionTextInputDemoTests;
+			sourceTree = "<group>";
+		};
+		2FF2D70C2412244D000B15A0 /* EmotionTextInputDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2D70D2412244D000B15A0 /* EmotionTextInputDemoUITests.swift */,
+				2FF2D70F2412244D000B15A0 /* Info.plist */,
+			);
+			path = EmotionTextInputDemoUITests;
+			sourceTree = "<group>";
+		};
+		2FF2D71B24122460000B15A0 /* EmotionTextInput */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2D71C24122460000B15A0 /* EmoticonView.swift */,
+				2FF2D71D24122460000B15A0 /* EmoticonCollectionView.swift */,
+				2FF2D71E24122460000B15A0 /* StringExtend.swift */,
+				2FF2D71F24122460000B15A0 /* EmoticonCollectionViewCell.swift */,
+				2FF2D72024122460000B15A0 /* EmoticonModel.swift */,
+				2FF2D72124122460000B15A0 /* PageControlView.swift */,
+				2FF2D72224122460000B15A0 /* UIImageExtend.swift */,
+				2FF2D72324122460000B15A0 /* DecoderStruct.swift */,
+				2FF2D72424122460000B15A0 /* EmoticonProtocol.swift */,
+				2FF2D72524122460000B15A0 /* RichTextView.swift */,
+				2FF2D72624122460000B15A0 /* UIViewExtend.swift */,
+			);
+			name = EmotionTextInput;
+			path = ../../EmotionTextInput;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FF2D6E724122449000B15A0 /* EmotionTextInputDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF2D7122412244D000B15A0 /* Build configuration list for PBXNativeTarget "EmotionTextInputDemo" */;
+			buildPhases = (
+				2FF2D6E424122449000B15A0 /* Sources */,
+				2FF2D6E524122449000B15A0 /* Frameworks */,
+				2FF2D6E624122449000B15A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmotionTextInputDemo;
+			productName = EmotionTextInputDemo;
+			productReference = 2FF2D6E824122449000B15A0 /* EmotionTextInputDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FF2D6FD2412244D000B15A0 /* EmotionTextInputDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF2D7152412244D000B15A0 /* Build configuration list for PBXNativeTarget "EmotionTextInputDemoTests" */;
+			buildPhases = (
+				2FF2D6FA2412244D000B15A0 /* Sources */,
+				2FF2D6FB2412244D000B15A0 /* Frameworks */,
+				2FF2D6FC2412244D000B15A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FF2D7002412244D000B15A0 /* PBXTargetDependency */,
+			);
+			name = EmotionTextInputDemoTests;
+			productName = EmotionTextInputDemoTests;
+			productReference = 2FF2D6FE2412244D000B15A0 /* EmotionTextInputDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FF2D7082412244D000B15A0 /* EmotionTextInputDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF2D7182412244D000B15A0 /* Build configuration list for PBXNativeTarget "EmotionTextInputDemoUITests" */;
+			buildPhases = (
+				2FF2D7052412244D000B15A0 /* Sources */,
+				2FF2D7062412244D000B15A0 /* Frameworks */,
+				2FF2D7072412244D000B15A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FF2D70B2412244D000B15A0 /* PBXTargetDependency */,
+			);
+			name = EmotionTextInputDemoUITests;
+			productName = EmotionTextInputDemoUITests;
+			productReference = 2FF2D7092412244D000B15A0 /* EmotionTextInputDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FF2D6E024122449000B15A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = XieYouWei;
+				TargetAttributes = {
+					2FF2D6E724122449000B15A0 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					2FF2D6FD2412244D000B15A0 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 2FF2D6E724122449000B15A0;
+					};
+					2FF2D7082412244D000B15A0 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 2FF2D6E724122449000B15A0;
+					};
+				};
+			};
+			buildConfigurationList = 2FF2D6E324122449000B15A0 /* Build configuration list for PBXProject "EmotionTextInputDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FF2D6DF24122449000B15A0;
+			productRefGroup = 2FF2D6E924122449000B15A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FF2D6E724122449000B15A0 /* EmotionTextInputDemo */,
+				2FF2D6FD2412244D000B15A0 /* EmotionTextInputDemoTests */,
+				2FF2D7082412244D000B15A0 /* EmotionTextInputDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FF2D6E624122449000B15A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF2D6F82412244C000B15A0 /* LaunchScreen.storyboard in Resources */,
+				2FF2D73524122523000B15A0 /* Emoticon.bundle in Resources */,
+				2FF2D6F52412244C000B15A0 /* Assets.xcassets in Resources */,
+				2FF2D6F324122449000B15A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF2D6FC2412244D000B15A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF2D7072412244D000B15A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FF2D6E424122449000B15A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF2D72824122461000B15A0 /* EmoticonCollectionView.swift in Sources */,
+				2FF2D72F24122461000B15A0 /* EmoticonProtocol.swift in Sources */,
+				2FF2D72D24122461000B15A0 /* UIImageExtend.swift in Sources */,
+				2FF2D6F024122449000B15A0 /* ViewController.swift in Sources */,
+				2FF2D6EC24122449000B15A0 /* AppDelegate.swift in Sources */,
+				2FF2D72724122461000B15A0 /* EmoticonView.swift in Sources */,
+				2FF2D73324122503000B15A0 /* AppConfig.swift in Sources */,
+				2FF2D72A24122461000B15A0 /* EmoticonCollectionViewCell.swift in Sources */,
+				2FF2D73024122461000B15A0 /* RichTextView.swift in Sources */,
+				2FF2D72E24122461000B15A0 /* DecoderStruct.swift in Sources */,
+				2FF2D72B24122461000B15A0 /* EmoticonModel.swift in Sources */,
+				2FF2D72924122461000B15A0 /* StringExtend.swift in Sources */,
+				2FF2D6EE24122449000B15A0 /* SceneDelegate.swift in Sources */,
+				2FF2D73124122461000B15A0 /* UIViewExtend.swift in Sources */,
+				2FF2D72C24122461000B15A0 /* PageControlView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF2D6FA2412244D000B15A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF2D7032412244D000B15A0 /* EmotionTextInputDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF2D7052412244D000B15A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF2D70E2412244D000B15A0 /* EmotionTextInputDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FF2D7002412244D000B15A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FF2D6E724122449000B15A0 /* EmotionTextInputDemo */;
+			targetProxy = 2FF2D6FF2412244D000B15A0 /* PBXContainerItemProxy */;
+		};
+		2FF2D70B2412244D000B15A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FF2D6E724122449000B15A0 /* EmotionTextInputDemo */;
+			targetProxy = 2FF2D70A2412244D000B15A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FF2D6F124122449000B15A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FF2D6F224122449000B15A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FF2D6F62412244C000B15A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FF2D6F72412244C000B15A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FF2D7102412244D000B15A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FF2D7112412244D000B15A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FF2D7132412244D000B15A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9ANJ7EAW8;
+				INFOPLIST_FILE = EmotionTextInputDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codyy.EmotionTextInputDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FF2D7142412244D000B15A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9ANJ7EAW8;
+				INFOPLIST_FILE = EmotionTextInputDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codyy.EmotionTextInputDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FF2D7162412244D000B15A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmotionTextInputDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codyy.EmotionTextInputDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmotionTextInputDemo.app/EmotionTextInputDemo";
+			};
+			name = Debug;
+		};
+		2FF2D7172412244D000B15A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmotionTextInputDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codyy.EmotionTextInputDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmotionTextInputDemo.app/EmotionTextInputDemo";
+			};
+			name = Release;
+		};
+		2FF2D7192412244D000B15A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmotionTextInputDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codyy.EmotionTextInputDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmotionTextInputDemo;
+			};
+			name = Debug;
+		};
+		2FF2D71A2412244D000B15A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmotionTextInputDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codyy.EmotionTextInputDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmotionTextInputDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FF2D6E324122449000B15A0 /* Build configuration list for PBXProject "EmotionTextInputDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF2D7102412244D000B15A0 /* Debug */,
+				2FF2D7112412244D000B15A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF2D7122412244D000B15A0 /* Build configuration list for PBXNativeTarget "EmotionTextInputDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF2D7132412244D000B15A0 /* Debug */,
+				2FF2D7142412244D000B15A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF2D7152412244D000B15A0 /* Build configuration list for PBXNativeTarget "EmotionTextInputDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF2D7162412244D000B15A0 /* Debug */,
+				2FF2D7172412244D000B15A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF2D7182412244D000B15A0 /* Build configuration list for PBXNativeTarget "EmotionTextInputDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF2D7192412244D000B15A0 /* Debug */,
+				2FF2D71A2412244D000B15A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FF2D6E024122449000B15A0 /* Project object */;
+}
